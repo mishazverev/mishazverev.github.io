@@ -1,0 +1,481 @@
+a:link
+  text-decoration: none
+
+a:visited
+  text-decoration: none
+
+a:hover
+  text-decoration: none
+
+a:active
+  text-decoration: none
+
+a
+  text-decoration: none
+
+header
+  position: relative
+
+nav
+  height: 50px
+  background: #212121
+
+.menu
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 13px 70px
+  margin: 0
+  list-style-type: none
+
+  &_link
+    color: #FFFFFF
+    font-weight: 300
+    font-size: 15px
+
+  &_item
+    border-right: 2px dotted black
+    &:last-child
+        border-right: none
+.subheader
+  width: 100%
+  position: absolute
+  height: 84px
+  background-color: rgba(0, 0, 0, 0.6)
+
+  &_logo
+    display: block
+    max-width: 100%
+    margin-top: 16px
+
+  &_official
+    margin-top: 6px
+    opacity: 0.6
+    font-style: normal
+    font-weight: 200
+    font-size: 13px
+    color: #FFFFFF
+
+  &_phone
+    display: block
+    margin-top: 15px
+    font-size: 22px
+    text-align: left
+    text-transform: uppercase
+    color: #FFFFFF
+    line-height: 12px
+
+  &_call
+    display: block
+    margin-top: 21px
+    font-size: 12px
+    text-align: left
+    color: #FFFFFF
+
+  &_btn
+    display: block
+    margin-top: 21px
+    border-radius: 4px
+    width: 172px
+    height: 46px
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+    border-radius: 4px
+    font-size: 14px
+    text-transform: uppercase
+    color: #FFFFFF
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+    +btn_hover
+
+.hamburger
+  display: none
+
+
+.promo
+  min-height: 800px
+  background: url(../img/background/uber_bg.png) center (center / cover) no-repeat
+  padding: 140px 0 186px 0
+
+  &_header
+    display: block
+    font-weight: 900
+    font-size: 60px
+    text-align: center
+    text-transform: uppercase
+    color: #FFFFFF
+
+  &_subheader
+    display: block
+    margin-top: 12px
+    font-weight: bold
+    font-size: 36px
+    text-align: center
+    text-transform: uppercase
+    color: #FFFFFF
+
+  &_descr
+    display: block
+    margin-top: 16px
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    text-align: center
+    color: #FFFFFF
+
+  &_btn
+    display: block
+    margin: 116px auto 0 auto
+    align-items: center
+    width: 259px
+    height: 63px
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12)
+    border-radius: 4px
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    text-align: center
+    text-transform: uppercase
+    color: #FFFFFF
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+    +btn_hover
+
+.reasons
+  position: relative
+  padding: 20px 0 64px 0
+
+.label
+  display: block
+  margin: 0 auto
+  width: 115px
+  height: 27px
+  background: #000000
+
+.label_text
+  padding-top: 6px
+  font-size: 11px
+  text-align: center
+  text-transform: uppercase
+  color: #FFFFFF
+  mix-blend-mode: normal
+
+.title
+  margin-top: 32px
+  font-size: 38px
+  font-weight: bold
+  text-align: center
+  text-transform: uppercase
+  color: #222222
+
+.reasons .container
+  margin-top: 16px
+
+  .item_icon
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 150px
+    margin-top: 31px
+
+    .item_round
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 116px
+      height: 116px
+      border-radius: 100%
+      background: #1EACC7
+
+    .item_text
+      display: flex
+      align-items: left
+      flex-direction: column
+      justify-content: center
+      width: 70%
+      margin-left: 45px
+      height: 150px
+      font-style: normal
+      font-weight: 300
+      font-size: 15px
+      color: #202020
+
+      &_selected
+        font-style: normal
+        font-weight: normal
+        font-size: 17px
+        color: #1EACC7
+
+.subtitle
+  margin-top: 19px
+  font-style: normal
+  font-weight: normal
+  font-size: 17px
+  text-align: center
+  color: #222222
+
+.mobile
+  min-height: 854px
+  padding: 48px 0 79px 0
+  background: url(../img/background/mobile_bg.png) center (center / cover) no-repeat
+  .row
+    margin-top: 32px
+  &_item
+    position: relative
+    width: 320px
+    height: 280px
+    margin: 0 auto
+    margin-bottom: 19px
+    padding-top: 92px
+    &_1    
+      background: url(../img/images/card_1.png) center (center / cover) no-repeat
+    &_2    
+      background: url(../img/images/card_2.png) center (center / cover) no-repeat
+    &_3    
+      background: url(../img/images/card_3.png) center (center / cover) no-repeat
+    &_4
+      background: url(../img/images/card_4.png) center (center / cover) no-repeat
+    &_5  
+      background: url(../img/images/card_5.png) center (center / cover) no-repeat
+    &_6
+      background: url(../img/images/card_6.png) center (center / cover) no-repeat
+    &_subtitle
+      font-style: normal
+      font-weight: normal
+      font-size: 24px
+      text-align: center
+      text-transform: uppercase
+      color: #FFFFFF
+    &_plus
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      bottom: 35px
+      left: 145px
+      width: 29px
+      height: 29px
+      background: #000000
+      border-radius: 100%
+      margin: 0 auto
+      padding: 2px
+      &:before
+        content: ''
+        display: block
+        width: 14px
+        height: 2px
+        background-color: $main-color
+      &:after
+        content: ''
+        display: block
+        width: 2px
+        height: 14px
+        background-color: $main-color
+        position: absolute
+        // transform: translateX(-50%)
+      &:hover
+        &:before, &:after
+          background-color: $second-color
+
+          
+
+        
+
+.opportunity  
+  .container    
+    max-width: 100%
+    .opportunity_half_1  
+      min-height: 502px
+      padding: 57px 0 0 0
+      margin: 0 0 0 0
+      background: #000000
+      .label
+        background: rgb(266, 256, 256) 
+        .label_text
+          color: #000000
+      .title
+        color: #FFFFFF
+        margin-top: 27px
+      .subtitle
+        margin-top: 1px
+        color: #FFFFFF
+    .opportunity_half_2
+      position: relative
+      min-height: 397px
+      padding: 210px 0 0 0
+      background: url(../img/background/car_2_bg.png) center (center / cover) no-repeat      
+      .car_background
+        position: absolute
+        top: -267px
+        left: 50%
+        transform: translateX(-50%)
+
+      .opportunity_descr
+        margin-top: 1px
+        font-style: normal
+        font-weight: 300
+        font-size: 17px
+        color: #222222
+        text-align: center
+.require
+  padding: 68px 0 84px 0
+  &_block
+    margin: 33px 0
+    &_nbm
+      margin-bottom: 0px
+  &_title
+    font-style: normal
+    font-weight: normal
+    font-size: 22px
+    color: $main-color
+  
+  &_list
+    margin-top: 22px
+    list-style-type: none
+    padding-left: 50px
+    li
+      position: relative
+      font-style: normal
+      font-weight: 300
+      font-size: 17px
+      color: #222222
+      margin-bottom: 10px
+      &:before
+        content: ''
+        display: block
+        position: absolute
+        width: 21px
+        height: 20px
+        background: url(../img/icons/check_blue.svg)
+        left: -32px
+        top: 3px
+
+.warning
+  .require_title
+    color: $second-color
+  .require_list
+    li
+      &:before
+        background: url(../img/icons/check_red.svg)
+        
+.world
+  height: 716px
+  padding: 48px 0 55px 0
+  background: #000000
+  
+  .container
+    height: 100% 
+    background: url(../img/background/world_bg.png)
+    .label
+      background: rgb(266, 256, 256) 
+      .label_text
+        color: #000000
+    .title
+      color: #FFFFFF
+      margin-top: 27px
+    .subtitle
+      margin-top: 1px
+      color: #FFFFFF
+    .all_cities
+      margin-top: 456px
+      text-align: center
+      a
+        font-style: normal
+        font-weight: normal
+        font-size: 15px
+        text-transform: uppercase
+        color: $main-color
+        text-decoration: none
+.footer
+  min-height: 156px
+  margin-top: 14px
+  background-color: #FFFFFF
+  position: relative
+  .line 
+    display: block
+    margin: 0 auto
+    height: 7px
+    width: 301px
+    background-color: $main-color   
+  .level_1
+    height: 50px
+    background-color: #FFFFFF
+    .container
+      width: 364px
+      .menu_level_1
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 31px 13px
+        margin: 0
+        list-style-type: none
+        .menu_link
+          font-style: normal
+          font-weight: 300
+          font-size: 15px
+          text-transform: uppercase
+          color: #070716
+  .level_2
+    height: 50px
+    background-color: #FFFFFF
+    .container
+      width: 390px
+      .menu_level_2
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 11px 13px
+        margin: 0
+        list-style-type: none
+        .menu_link
+          font-weight: 300
+          font-size: 11px
+          text-transform: uppercase
+          color: #999999
+  .language
+    text-align: center
+
+    .language_link
+      font-style: normal
+      font-weight: normal
+      font-size: 11px
+      text-transform: uppercase
+      color: $main-color
+      text-decoration: none
+
+  .social_media
+    position: absolute
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 156px
+    height: 35px
+    top: 39px
+    left: 23px
+    .logo
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 35px
+      height: 35px
+      border-radius: 100%
+      background-color: #000000
+    .facebook
+      display: flex
+      align-items: center
+      justify-content: center
+    .twitter
+      display: flex
+      align-items: center
+      justify-content: center
+    .instagram
+      display: flex
+      align-items: center
+      justify-content: center
+    .linkedin
+      display: flex
+      align-items: center
+      justify-content: center
+
+.xs-visible
+  display: none
+

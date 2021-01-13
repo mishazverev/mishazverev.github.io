@@ -1,0 +1,121 @@
+@media (max-width: 1200px)
+    .promo
+        &_header
+            font-size: 50px
+    .reasons
+        .col-md-6
+            margin-top: 40px
+        .container 
+            .item_icon
+                .item_text
+                    width: 60%
+    .mobile
+        &_item
+            width: 300px
+@media (max-width: 991px)
+    .menu
+        &_link
+            font-size: 11.5px
+    .subheader
+        &_official
+            font-size: 11.5px
+        &_phone
+            font-size: 19px
+       
+    .promo
+        &_header
+            font-size: 41px
+    .reasons
+        .col-md-6
+            margin-top: 20px
+        .container 
+            .item_icon
+                flex-direction: column
+                align-items: center
+                height: auto
+                .item_text
+                    font-size: 13px
+                    width: 100%
+                    &_selected
+                        font-size: 16px
+    .mobile
+        &_item
+            width: 220px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        &_active 
+            left: 0
+        &_item 
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link 
+            font-size: 20px
+
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 30px
+        height: 18px
+        span
+            display: block
+            height: 3px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 3px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -3px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)  
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            font-style: normal
+            font-weight: normal
+            font-size: 14px
+            text-transform: uppercase
+            color: #FFFFFF
+            text-align: right  
+        &_btn
+            width: 160px
+            height: 40px
+            margin: 5px 0 0 auto
+
+                    
+    .opportunity
+        .car_background
+            .car_picture
+                width: 520px
+    .promo
+        &_header
+            font-size: 41px
+
+@media (max-width: 575px)
+    .opportunity
+        .car_background
+            .car_picture
+                width: 360px
+
